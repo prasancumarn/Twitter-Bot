@@ -1,3 +1,13 @@
 # Twitter-Bot
-Created a bot using tweepy and tkinter that allows the user to reply, retweet, favorite a tweet by searching a string without going to the Twitter application. 
-Since, I already had executed the number of followers part of the code, it throws an error.
+Created a twitter bot that is supposed to do the following things:
+1. Follow everyone who is following me.
+2. Favorite and Retweet a Tweet based on Keywords.
+3. Reply to a user based on a keyword.
+
+All this is done using 2 packages of twitter in Python:
+1. Tweepy
+2. Tkinter
+
+Tweepy is used to get the necessary tokens of the consumer and the access to the Twitter account and also allows to reply, retweet and favorite the tweet that he wants based on the keyword search. All this is done withi a function, so that not all the codes have to be run seperately and the user has to only call the function in order to execute it.
+
+In order to make it more simple and allow the user to reply, retweet or favorite a tweet, a GUI is created and it allows the user to enter the keyword and select what he/she wants to do with the tweet. This GUI is created using tkinter package of twitter in Python.
